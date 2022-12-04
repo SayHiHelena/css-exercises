@@ -1,3 +1,7 @@
+/* can use either the descendant combinator " "
+   of the child combinator ">"
+ */
+
 div>p {
     background: yellow;
     color: red;
