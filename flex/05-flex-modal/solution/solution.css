@@ -18,6 +18,7 @@ body {
 .modal {
   background: white;
   width: 480px;
+  flex: 0.1 0.1 auto;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -31,6 +32,8 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 1 0 auto;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -75,7 +78,7 @@ button.cancel {
 
 .icon {
   /* this keeps the icon from getting smashed by the text */
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .header {
